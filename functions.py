@@ -5,3 +5,10 @@ def sum(x,y):
 print("the sum is")
 sum(2,4)
 print("end")
+
+#return 
+
+def cube(x):
+    return x*x*x
+
+print(cube(3))
