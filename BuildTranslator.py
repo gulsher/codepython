@@ -1,3 +1,5 @@
+'''transalor 
+game'''
 def translate(texts):
     translation=""
     for letter in texts:
