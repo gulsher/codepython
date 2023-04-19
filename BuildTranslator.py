@@ -1,6 +1,7 @@
 def translate(texts):
     translation=""
     for letter in texts:
+        #converting letter to lower case
         if letter.lower() in "aeiou":
             if letter.isupper():
                 translation = translation + "G"
