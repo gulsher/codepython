@@ -4,3 +4,9 @@ class Student :
         self.major = major
         self.gpa = gpa
         self.is_on_probation = is_on_probation
+    
+    def graduate(self):
+        if float(self.gpa)  >= 4:
+            return True
+        else:
+            return False
